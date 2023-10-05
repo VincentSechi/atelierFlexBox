@@ -19,26 +19,27 @@ nav{
 .nav_container-links{
     display: flex;
     justify-content: space-between;
+
+    max-width: 1200px;
+    margin:0 auto;
 }
 
 .nav_container-links-logo{
     padding:5px;
+    margin-left: 50px;
+
     font-weight: bolder;
     line-height: 40px;
     font-size: 30px;
     color: #40595a;
     text-transform:uppercase;
-
-    margin-left: 50px;
-}
-.nav_container-links-items{
-    margin-right: 100px;
-    margin-top:15px;
 }
 .nav_container-links-list{
+    display: flex;
+    padding:15px;
+    
     color:#40595a;
     font-weight:bolder;
-    display: flex;
     gap:40px;
 }
 
